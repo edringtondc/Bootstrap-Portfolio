@@ -3,74 +3,131 @@
 
 <head>
     <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style1.css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700|Pacifico" rel="stylesheet">
-    <link href="assets/css/fonts.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style2.css">
 
 </head>
 
 <body>
 
-    <div class="header-wrapper clearfix">
-        <header class="clearfix">
-            <div class="tab">
-                Dr. Elisabeth Edrington
-            </div>
-            <nav>
-                <a href="index.html">About</a> |
-                <a href="portfolio.html">Portfolio</a> |
-                <a href="contact.html">Contact</a>
-            </nav>
-        </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navContainer navStyle align-bottom">
+        <div class="tab">Elisabeth Edrington</div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+            <ul class="nav ">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
     </div>
 
-    <section class="content clearfix">
-        <div class="label">
-            <h1>Portfolio</h1>
-        </div>
-        <div class="portfolio">
-            <div class="project">
-                <img src="http://baconmockup.com/250/200" alt="place holder bacon">
-                <div class="portfolio-box-left">
-                    Games
+
+
+
+    <div class="container content">
+            <div class="row">
+                    <div class="col-md-12">
+                        <div class="card heading border-top-0 border-right-0 border-left-0 rounded-0">
+                                <div class="card-body">
+                                  <h1>My Portfolio</h1>
+                                </div>
+                            </div>
+                            </div>
                 </div>
-            </div>
-        </div>
-        <div class="portfolio">
-            <div class="project">
-                <img src="http://baconmockup.com/250/200" alt="place holder bacon">
-                <div class="portfolio-box-right">
-                    Apps
+        <!-- Row 1 -->
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/200" class="rounded mx-auto d-block profilePic" alt="...">
+                <!-- Text box  -->
+                <div class="row ">
+                    <div class="col-md-12 ">
+                        <div class="card-body portfolioLabel">
+                            Games
+                        </div>
+                    </div>
                 </div>
 
             </div>
-        </div>
-
-        <div class="portfolio">
-                <div class="project">
-                    <img src="http://baconmockup.com/250/200" alt="place holder bacon">
-                    <div class="portfolio-box-left">
-                        Games
+            <!-- Column 2 -->
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/200" class="rounded mx-auto d-block profilePic" alt="...">
+                <div class="row ">
+                    <div class="col-md-12 ">
+                        <div class="card-body portfolioLabel">
+                            Apps
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="portfolio">
-                <div class="project">
-                    <img src="http://baconmockup.com/250/200" alt="place holder bacon">
-                    <div class="portfolio-box-right">
-                        Apps
+
+            <!-- column 3 -->
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/200" class="rounded mx-auto d-block profilePic" alt="...">
+                <div class="row ">
+                    <div class="col-md-12 ">
+                        <div class="card-body portfolioLabel">
+                            Section 3
+                        </div>
                     </div>
-    
                 </div>
+
             </div>
 
+        </div>
 
-    </section>
+        <!-- Row 2 -->
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/200" class="rounded mx-auto d-block profilePic" alt="...">
+                <div class="row ">
+                    <div class="col-md-12 ">
+                        <div class="card-body portfolioLabel">
+                            Section 4
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/200" class="rounded mx-auto d-block profilePic" alt="...">
+                <div class="row ">
+                    <div class="col-md-12 ">
+                        <div class="card-body portfolioLabel">
+                            Section 5
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+
+            </div>
+
+        </div>
+
 
     </div>
 
     <footer>
-        copyright &copy;
+
+          
     </footer>
 </body>
 

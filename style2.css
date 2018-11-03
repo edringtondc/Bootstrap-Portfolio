@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    background-image: url("assets/images/gravel.png");
+    color: #777;
+    height: 100%;
+}
+ 
+html { 
+    height: 100%;
+}
+
+.navContainer{
+    margin: 0px;
+}
+.tab {
+   
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #4aaaa5;
+    color: #fff;
+    float:right;
+    padding: 15px 25px 15px 25px;
+    
+ }
+
+ .navStyle a {
+     color: #777;
+ }
+
+ .clearfix::after {
+    display: block;
+    content: "";
+    clear: both;  
+}
+
+.content {
+    background: white;
+    width: 100%;
+    margin: 150px;
+    font-size: 16px;
+    line-height: 24px;
+    height: auto;
+    text-align: left;
+    float: left;
+    z-index: 1;
+
+}
+
+.aboutPic {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px !important;
+    margin-top: 10px;
+}
+
+.content p {
+    padding: 10px;
+    margin: 10px;
+}
+.profilePic {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.portfolioLabel {
+    background-color: #4aaaa5;
+    color: #fff;
+    position: relative;
+    width: 200px;
+    text-align: center;
+    z-index: 10;
+    right: 215px;
+    top: 136px;
+
+}
+
+.stickyFooter {
+    position: absolute;
+    text-align: center;
+    background: #666666;
+    line-height: 1.5;
+    height: 50px;
+    border-top-color: #4aaaa5;
+    border-top-width: 5px;
+    border-top-style: solid;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.heading {
+    color: #4aaaa5;
+    border-color: #777;
+    border-width: .01rem;
+   
