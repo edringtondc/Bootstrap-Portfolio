@@ -3,20 +3,19 @@
     padding: 0;
     margin: 0;
 }
+
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     background-image: url("assets/images/gravel.png");
     color: #777;
-    height: 100%;
+    
 }
  
-html { 
-    height: 100%;
+html {
+    height: 100%
 }
 
-.navContainer{
-    margin: 0px;
-}
+
 .tab {
    
     font-weight: bold;
@@ -28,8 +27,13 @@ html {
     
  }
 
+ .navStyle {
+    padding: .5rem 1rem 0rem 1rem;
+ }
+
  .navStyle a {
      color: #777;
+    
  }
 
  .clearfix::after {
@@ -40,15 +44,19 @@ html {
 
 .content {
     background: white;
-    width: 100%;
-    margin: 150px;
-    font-size: 16px;
+    width: 80%;
+    margin: 100px;
     line-height: 24px;
     height: auto;
     text-align: left;
     float: left;
     z-index: 1;
 
+}
+
+.content p {
+    padding: 10px;
+    margin: 10px;
 }
 
 .aboutPic {
@@ -58,10 +66,7 @@ html {
     margin-top: 10px;
 }
 
-.content p {
-    padding: 10px;
-    margin: 10px;
-}
+
 .profilePic {
     float: left;
     margin-left: 10px;
@@ -81,7 +86,9 @@ html {
 
 }
 
-.stickyFooter {
+
+
+footer {
     position: absolute;
     text-align: center;
     background: #666666;
@@ -92,10 +99,12 @@ html {
     border-top-style: solid;
     margin: 0;
     padding-top: 10px;
-}
+    bottom: -800px;
+    width: 100%;
+
 
 .heading {
     color: #4aaaa5;
     border-color: #777;
     border-width: .01rem;
-   
+}
