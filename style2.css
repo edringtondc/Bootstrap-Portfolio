@@ -29,7 +29,10 @@ html {
 
  .navStyle {
     padding: .5rem 1rem 0rem 1rem;
+    background-color: purple !important;
+    
  }
+
 
  .navStyle a {
      color: #777;
@@ -49,7 +52,7 @@ html {
     line-height: 24px;
     height: auto;
     text-align: left;
-    float: left;
+    float: right;
     z-index: 1;
 
 }
@@ -64,6 +67,8 @@ html {
     margin-left: 10px;
     margin-right: 10px !important;
     margin-top: 10px;
+    max-height: 300px;
+    max-width: 200px;
 }
 
 
@@ -83,13 +88,10 @@ html {
     z-index: 10;
     right: 215px;
     top: 136px;
-
 }
 
 
-
-footer {
-    position: absolute;
+footer div {
     text-align: center;
     background: #666666;
     line-height: 1.5;
@@ -99,12 +101,24 @@ footer {
     border-top-style: solid;
     margin: 0;
     padding-top: 10px;
-    bottom: -800px;
     width: 100%;
+}
 
 
 .heading {
     color: #4aaaa5;
     border-color: #777;
     border-width: .01rem;
+}
+
+@media screen and (max-width: 640px){
+ .aboutPic {
+     max-width: 100%;
+ }
+
+}
+@media screen and (max-width: 780px){
+.navStyle {
+    justify-items: flex-end;
+}
 }
